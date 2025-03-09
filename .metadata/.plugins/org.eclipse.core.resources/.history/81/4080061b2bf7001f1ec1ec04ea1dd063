@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Lab01 {
-	exports com.example;
-}
