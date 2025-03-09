@@ -1,0 +1,24 @@
+package main.java.com.ecomerce.processor;
+
+import main.java.com.ecomerce.models.Order;
+import main.java.com.ecomerce.models.Product;
+
+public class OnlineProcessor implements OrderProcessor{
+	@Override
+	public void processOrder(Order order) {
+		System.out.println("Đang xử lý đơn hàng trực tuyến: "+ order.getOrderId());
+		updateInventory(order);
+		notifyCustomer(order);
+	}
+	
+	
+	@Override
+	public void updateInventory(Order order) {
+		System.out.println("Cập nhật kho hàng cho đơn trực tuyến");
+		
+		for(Product product : order.getProducts()) {
+			System.out.println("Cập nhật kho hàng cho sản phẩm"+ product.getName() + "Số lượng" + product.getQuantity());
+		}
+	}
+
+}

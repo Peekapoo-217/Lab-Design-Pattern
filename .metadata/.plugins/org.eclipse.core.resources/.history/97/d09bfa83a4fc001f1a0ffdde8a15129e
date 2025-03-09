@@ -1,0 +1,11 @@
+package main.java.com.ecomerce.processor;
+
+import main.java.com.ecomerce.models.Order;
+
+public class OnlineProcessor implements OrderProcessor{
+	@Override
+	public void processOrder(Order order) {
+		System.out.println("Đang xử lý đơn hàng trực tuyến: "+ order);
+	}
+
+}

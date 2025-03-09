@@ -1,0 +1,41 @@
+package com.example.config;
+
+public class ConfigurationManager {
+    // Biến static lưu trữ instance duy nhất của class
+    private static volatile ConfigurationManager instance;
+    
+    // Bản đồ chứa cấu hình hệ thống
+    private Map<String, String> configurations;
+    
+    // Constructor private để ngăn việc tạo instance từ bên ngoài
+    private ConfigurationManager() {
+        configurations = new HashMap<>();
+    }
+    
+    // Phương thức lấy instance duy nhất (sử dụng synchronized để an toàn đa luồng)
+    public static ConfigurationManager getInstance() {
+        if (instance == null) {
+            synchronized (ConfigurationManager.class) {
+                if (instance == null) {
+                    instance = new ConfigurationManager();
+                }
+            }
+        }
+        return instance;
+    }
+    
+    // Phương thức lấy giá trị cấu hình theo tên
+    public String getConfig(String key) {
+        return configurations.get(key);
+    }
+    
+    // Phương thức cập nhật giá trị cấu hình
+    public void setConfig(String key, String value) {
+        configurations.put(key, value);
+    }
+    
+    // Phương thức kiểm tra trạng thái của một cấu hình
+    public boolean isConfigAvailable(String key) {
+        return configurations.containsKey(key);
+    }
+}

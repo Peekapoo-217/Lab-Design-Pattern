@@ -1,0 +1,5 @@
+package main.java.com.ecomerce.shipping;
+
+public class MobileShippingCalculator implements ShippingCalculator{
+	
+}

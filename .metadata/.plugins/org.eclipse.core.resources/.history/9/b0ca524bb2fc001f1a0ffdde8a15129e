@@ -1,0 +1,29 @@
+package main.java.com.ecomerce.factory;
+
+import main.java.com.ecomerce.enums.PaymentMethod;
+import main.java.com.ecomerce.payment.CreditCardPayment;
+import main.java.com.ecomerce.processor.OnlineProcessor;
+import main.java.com.ecomerce.processor.OrderProcessor;
+import main.java.com.ecomerce.shipping.OnlineShippingCalculator;
+import main.java.com.ecomerce.shipping.ShippingCalculator;
+
+public class OnlineOrderProcessFactory implements OrderProcessFactory{
+	@Override
+	public OrderProcessor createOrderProcessor() {
+		return new OnlineProcessor();
+	}
+	
+	@Override
+	public ShippingCalculator createShippingCalculator() {
+		return new OnlineShippingCalculator();
+	}
+	
+	@Override
+	public PaymentProcessor createPaymentProcessor(PaymentMethod paymentMethod) {
+		switch(paymentMethod) {
+		case (CREDIT_CARD):
+			return new CreditCardPayment();break;
+		}
+	}
+	
+}

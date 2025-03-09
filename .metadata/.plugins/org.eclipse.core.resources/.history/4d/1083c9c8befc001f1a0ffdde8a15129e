@@ -1,0 +1,28 @@
+// 1. Tạo lớp MobileAppStore kế thừa SalesChannel
+package com.ecomerce.channel;
+
+import com.ecomerce.processor.MobileOrderProcessor;
+import com.ecomerce.processor.OrderProcessor;
+
+public class MobileAppStore extends SalesChannel {
+    @Override
+    public OrderProcessor createOrderProcessor() {
+        return new MobileOrderProcessor();
+    }
+}
+
+// 2. Cập nhật Main.java để sử dụng MobileAppStore
+package com.ecomerce.main;
+
+import com.ecomerce.channel.MobileAppStore;
+import com.ecomerce.processor.OrderProcessor;
+import com.ecomerce.models.Order;
+
+public class Main {
+    public static void main(String[] args) {
+        // Xử lý đơn hàng từ ứng dụng di động
+        MobileAppStore mobileStore = new MobileAppStore();
+        OrderProcessor processor = mobileStore.createOrderProcessor();
+        processor.processOrder(new Order());
+    }
+}

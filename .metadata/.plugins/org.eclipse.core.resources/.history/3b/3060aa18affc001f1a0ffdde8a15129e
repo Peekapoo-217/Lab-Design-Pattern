@@ -1,0 +1,11 @@
+package main.java.com.ecomerce.payment;
+
+import main.java.com.ecomerce.models.Order;
+
+public class CashOnDeliveryPayment implements PaymentProcessor{
+	@Override
+	public boolean processPayment(Order order) {
+		
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.hungdev.factory;
+
+public class OrderFactory {
+	
+}

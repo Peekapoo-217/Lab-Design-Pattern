@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.example.config.ConfigProvider"/>
+    <fullyQualifiedTypeName name="com.example.config.DatabaseConfigProvider"/>
+    <fullyQualifiedTypeName name="com.example.provider.ConfigProvider"/>
+    <fullyQualifiedTypeName name="com.example.config.ConfigurationManager"/>
+    <fullyQualifiedTypeName name="com.example.provider.DatabaseConfigProvider"/>
+    <fullyQualifiedTypeName name="com.example.provider.ConfigProviderFactory"/>
+</qualifiedTypeNameHistroy>

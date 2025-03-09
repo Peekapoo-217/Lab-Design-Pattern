@@ -1,0 +1,8 @@
+package main.java.com.ecomerce.factory;
+
+import main.java.com.ecomerce.processor.OrderProcessor;
+
+public interface OrderProcessFactory {
+	OrderProcessor createOrderProcessor();
+	
+}
