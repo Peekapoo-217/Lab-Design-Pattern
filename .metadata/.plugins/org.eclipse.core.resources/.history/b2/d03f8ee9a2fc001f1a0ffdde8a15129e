@@ -1,5 +1,0 @@
-package com.example.processor;
-
-public interface OrderProcessor {
-	void process(String orderId);
-}

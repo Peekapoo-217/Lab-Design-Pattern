@@ -1,8 +1,0 @@
-package main.java.com.ecomerce.channel;
-
-public class MobileAppStore implements SalesChannel{
-	@Override
-    public OrderProcessor createOrderProcessor() {
-        return new MobileOrderProcessor();
-    }
-}

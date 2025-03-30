@@ -1,8 +1,0 @@
-package main.java.com.ecomerce.shipping;
-
-public class MobileShippingCalculator implements ShippingCalculator{
-	@Override
-	public double calculateShippingFee(Order order) {
-		
-	}
-}

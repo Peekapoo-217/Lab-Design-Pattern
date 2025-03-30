@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="com.example.config.ConfigProvider"/>
     <fullyQualifiedTypeName name="com.example.config.DatabaseConfigProvider"/>
     <fullyQualifiedTypeName name="com.example.provider.ConfigProvider"/>
@@ -17,7 +15,6 @@
     <fullyQualifiedTypeName name="main.java.com.ecomerce.processor.OnlineProcessor"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.shipping.ShippingCalculator"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.shipping.OnlineShippingCalculator"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.payment.CreditCardPayment"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.payment.PaymentProcessor"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.processor.PhysicalOrderProcessor"/>
@@ -35,4 +32,20 @@
     <fullyQualifiedTypeName name="main.java.com.ecomerce.enums.SalesChannelType"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.channel.MobileAppStore"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.enums.PaymentMethod"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.adapter.PDFToDOCXAdapter"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.PDFDocument"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.adapter.PDFToTXTAdapter"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.DOCXDocument"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.Storage"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.CachingStorage"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.EncryptedStorage"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.DropboxStorage"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.ODTDocument"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.Document"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.manager.DocumentManager"/>
+    <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.TXTDocument"/>
 </qualifiedTypeNameHistroy>

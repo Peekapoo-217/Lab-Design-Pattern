@@ -1,5 +1,0 @@
-package main.java.com.ecomerce.factory;
-
-public class OnlineOrderProcessFactory implements OrderProcessFactory{
-	
-}

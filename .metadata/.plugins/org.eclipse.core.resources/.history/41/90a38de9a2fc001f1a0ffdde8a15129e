@@ -1,5 +1,0 @@
-package com.example.processor;
-
-public interface PaymentProcessor {
-	void processPayment(String orderId, double amount);
-}

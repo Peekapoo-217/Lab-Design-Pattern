@@ -1,5 +1,0 @@
-package com.hungdev.factory;
-
-public class OrderFactory {
-	void processOrder();
-}

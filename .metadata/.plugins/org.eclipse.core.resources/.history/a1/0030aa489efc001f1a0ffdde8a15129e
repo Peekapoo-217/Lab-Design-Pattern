@@ -1,5 +1,0 @@
-package com.hungdev.factory;
-
-public interface OrderProcessor {
-
-}

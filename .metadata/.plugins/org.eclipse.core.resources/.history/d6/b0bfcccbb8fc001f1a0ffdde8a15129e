@@ -1,5 +1,0 @@
-package main.java.com.ecomerce.enums;
-
-public enum SalesChannelType {
-
-}
