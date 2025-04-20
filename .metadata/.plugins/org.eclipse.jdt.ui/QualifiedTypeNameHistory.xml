@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.config.ConfigProvider"/>
     <fullyQualifiedTypeName name="com.example.config.DatabaseConfigProvider"/>
     <fullyQualifiedTypeName name="com.example.provider.ConfigProvider"/>
     <fullyQualifiedTypeName name="com.example.config.ConfigurationManager"/>
     <fullyQualifiedTypeName name="com.example.provider.DatabaseConfigProvider"/>
     <fullyQualifiedTypeName name="com.example.provider.ConfigProviderFactory"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.models.Product"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.enums.ShippingType"/>
@@ -32,14 +29,10 @@
     <fullyQualifiedTypeName name="main.java.com.ecomerce.enums.SalesChannelType"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.channel.MobileAppStore"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.enums.PaymentMethod"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.adapter.PDFToDOCXAdapter"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.PDFDocument"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.adapter.PDFToTXTAdapter"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.DOCXDocument"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.Storage"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.CachingStorage"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.storage.EncryptedStorage"/>
@@ -48,4 +41,23 @@
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.Document"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.manager.DocumentManager"/>
     <fullyQualifiedTypeName name="main.java.com.example.documenmanager.document.TXTDocument"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.decorator.GraphicDecorator"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.graphic.GraphicDecorator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.graphic.Graphic"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.graphic.Circle"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.graphic.Square"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.graphic.CompositeGraphic"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.decorator.BorderDecorator"/>
+    <fullyQualifiedTypeName name="main.java.com.example.lab04.decorator.ShadowDecorator"/>
+    <fullyQualifiedTypeName name="java.util.Observer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.example.hung.observer.Observer"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="org.example.hung.observer.StockExchange"/>
+    <fullyQualifiedTypeName name="org.example.hung.subject.Stock"/>
+    <fullyQualifiedTypeName name="org.example.hung.observer.Investor"/>
 </qualifiedTypeNameHistroy>
