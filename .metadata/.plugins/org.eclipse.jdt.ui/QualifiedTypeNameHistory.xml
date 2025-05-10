@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="main.java.com.ecomerce.shipping.OnlineShippingCalculator"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.payment.CreditCardPayment"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.payment.PaymentProcessor"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.processor.PhysicalOrderProcessor"/>
@@ -50,7 +49,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="examle.java.com.hung.device.Fan"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfoSupport"/>
     <fullyQualifiedTypeName name="examle.java.com.hung.device.AirConditioner"/>
     <fullyQualifiedTypeName name="examle.java.com.hung.command.Command"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="examle.java.com.hung.utils.HistoryLogger"/>
     <fullyQualifiedTypeName name="javax.sound.sampled.Line"/>
     <fullyQualifiedTypeName name="main.java.com.example.lab04.graphic.Line"/>
+    <fullyQualifiedTypeName name="payment.PaymentStrategy"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
