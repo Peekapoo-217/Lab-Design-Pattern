@@ -11,4 +11,5 @@ public class Student extends User {
 	public UserType getUserType() {
 		return UserType.STUDENT;
 	}
+
 }
