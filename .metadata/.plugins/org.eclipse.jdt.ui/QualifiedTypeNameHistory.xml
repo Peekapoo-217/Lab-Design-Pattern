@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="main.java.com.ecomerce.models.Order"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.factory.OrderProcessFactory"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.factory.MobileOrderProcessorFactory"/>
     <fullyQualifiedTypeName name="main.java.com.ecomerce.enums.SalesChannelType"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="channel.NotificationChannel"/>
     <fullyQualifiedTypeName name="java.nio.channels.Channel"/>
     <fullyQualifiedTypeName name="enums.ChannelType"/>
+    <fullyQualifiedTypeName name="main.Main"/>
 </qualifiedTypeNameHistroy>
